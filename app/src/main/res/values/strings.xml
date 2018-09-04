@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">StudentData</string>
+    <string name="Click_here">Click here to Proceed</string>
+    <string name="Enter_Name">Enter First Name</string>
+    <string name="Second_name">Enter Second Name</string>
+    <string name="id">Enter Id to search or Update</string>
+    <string name="insert">Insert</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+    <string name="View">View Data</string>
+    <string name="search">Search Data</string>
+</resources>

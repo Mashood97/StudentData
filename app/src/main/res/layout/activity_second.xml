@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:weightSum="8"
+    tools:context="com.example.okcomputers.studentdata.SecondActivity">
+
+    <EditText
+        android:id="@+id/FirstName"
+        android:layout_width="match_parent"
+        android:hint="@string/Enter_Name"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/SecondName"
+        android:hint="@string/Second_name"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:hint="@string/id"
+        android:id="@+id/editId"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/insert_Btn"
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:text="@string/insert"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/rounded_btn"/>
+
+
+    <Button
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"
+        android:id="@+id/Search_btn"
+        android:text="@string/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_btn"/>
+
+
+
+    <Button
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"
+        android:id="@+id/View_btn"
+        android:text="@string/View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_btn"/>
+
+
+    <Button
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"
+        android:id="@+id/Update_btn"
+        android:text="@string/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_btn"/>
+
+    <Button
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"
+        android:id="@+id/delte_btn"
+        android:text="@string/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_btn"/>
+
+</LinearLayout>
